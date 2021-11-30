@@ -1,6 +1,6 @@
 import React from 'react'
 import bnb from './binance-logo.webp'
-import { Icon, Statistic } from 'semantic-ui-react'
+import { Statistic } from 'semantic-ui-react'
 
 const jackpot = (props) => {
   return (
