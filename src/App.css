@@ -1,0 +1,16 @@
+html
+  body
+  div#root
+  div
+  div.ui.container
+  div.ui.grid
+  div.row
+  div.column
+  div
+  div.ui.three.cards
+  div.ui.fluid.card
+  div.content {
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77) !important;
+  -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77) !important;
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77) !important;
+}
