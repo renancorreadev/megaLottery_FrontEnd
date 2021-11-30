@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
 import Home from './Views/Home'
 import History from './Views/History'
 
-import { Menu, Segment, Container, Icon, Header } from 'semantic-ui-react'
+import { Menu, Segment, Container, Header } from 'semantic-ui-react'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
