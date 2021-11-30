@@ -13,7 +13,9 @@ const siteHeader = () => (
     <Header as="h1" textAlign="center" style={headerStyle} icon>
       <Icon inverted name="gem" />
       Lottery dApp
-      <Header.Subheader>lose your money and make us rich</Header.Subheader>
+      <Header.Subheader>
+        <a href="https://github.com/skyxcripto">skyxcripto</a>
+      </Header.Subheader>
     </Header>
   </Container>
 )

@@ -49,7 +49,19 @@ class App extends Component {
               </LogoBox>
 
               <Header.Subheader style={{ color: 'white' }}>
-                <pre>Welcome to MegaLottery, your lucky house!</pre>
+                <pre>
+                  Welcome to MegaLottery, your lucky house | development by{' '}
+                  <a
+                    href="https://github.com/skyxcripto"
+                    style={{
+                      color: 'orange',
+                      fontWeight: 'bold',
+                      fontSize: '1.3rem',
+                    }}
+                  >
+                    skyxcripto
+                  </a>
+                </pre>
               </Header.Subheader>
             </Header>
             <Menu pointing secondary inverted size="large">
