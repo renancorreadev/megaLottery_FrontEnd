@@ -1,17 +1,19 @@
 import React from 'react'
-
-import { Icon, Statistic } from 'semantic-ui-react'
+import binance from '../../assets/logo.png'
+import { Statistic } from 'semantic-ui-react'
+import styled from 'styled-components'
 
 const jackpot = (props) => {
   return (
     <Statistic>
-      <Statistic.Value>
-        <Icon name="ethereum" color="green" size="large" />{' '}
-        {props.jackpot || '0'}
-      </Statistic.Value>
+      <Statistic.Value></Statistic.Value>
       <Statistic.Label>Mega</Statistic.Label>
+      <Image src={{ binance }} alt="jackpot" />
     </Statistic>
   )
 }
 
+const Image = styled.img`
+  width: 100px;
+`
 export default jackpot
